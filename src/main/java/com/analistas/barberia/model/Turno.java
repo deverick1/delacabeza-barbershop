@@ -5,8 +5,12 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.AllArgsConstructor;
 
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
 @Entity
 @Table(name = "TURNO")
 public class Turno {

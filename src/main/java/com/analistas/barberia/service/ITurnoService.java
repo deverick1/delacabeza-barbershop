@@ -10,7 +10,12 @@ public interface ITurnoService {
     Turno save(Turno turno);
     void delete(Long id);
 
-    Boolean IsDisponible(Turno turno);
-    Boolean isDisponible(Turno turno);
+    
+    public Boolean isDisponible(Turno turno);
 
+    public void guardar(Turno turno);
+
+    public void eliminar(Long id);
+
+    public Turno buscarPorId(Long id);
 }
